@@ -1,0 +1,26 @@
+.wrap__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.wrap__container form {
+  padding-top: 0.5rem;
+	margin-left: 4rem;
+}
+
+.posts-form input {
+	min-width: 20rem;
+}
+
+.posts-table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+.posts-table tr th,
+.posts-table tr td {
+  padding: 1rem;
+  border: 1px solid #50575e;
+}
